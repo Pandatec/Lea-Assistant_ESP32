@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "WebSockets.cpp"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        esp_websocket_client
+        nvs_flash
+    INCLUDE_DIRS
+        "../../lib/json/include"
+)
